@@ -93,7 +93,10 @@ AI Sphere Butler 打造全方位服务用户生活的 AI 全能管家——代�
   - 允许用户在对话中随时提问或打断，提升交互灵活性和自然度。
 
 - 一键切换声音和形象
-  - 提供简便的操作界面，让用户能够快速更换数字人的声音和外观。
+  - 提供简便的操作界面，让用户能够快速更换数字人管家的声音和外观。
+
+-  一键自定义换装
+  -  提供简便的操作界面，让用户能够快速更换数字人管家的服装。
 
 **二、声纹识别模块**
 - 实现高效的身份验证机制，增强系统的安全性和用户体验。
@@ -128,8 +131,9 @@ AI Sphere Butler 打造全方位服务用户生活的 AI 全能管家——代�
 **十二、定位导航模块**
 - 支持地图浏览、路径规划等功能，方便用户的出行安排。
 
-**十三、播放音乐模块**
+**十三、娱乐模块**
 - 整合音乐播放功能，让用户享受个性化的音乐体验。
+- 可以让管家唱歌跳舞表演。
 
 **十四、网店购物模块**
 - 提供便捷的商品搜索、比价、下单等一站式购物服务。
@@ -217,18 +221,23 @@ AI Sphere Butler 打造全方位服务用户生活的 AI 全能管家——代�
 
 **四、物联网联动模块（选用Home Assistant）**
 - 已开发实现基础功能
+https://www.bilibili.com/video/BV1n9CpY7E1o/?spm_id_from=333.1387.homepage.video_card.click
 
 **五、联网新闻播报模块**
 - 已开发实现基础功能
+https://www.bilibili.com/video/BV1R26qYqEvo/?spm_id_from=333.1387.homepage.video_card.click
 
 **六、互动触觉反馈模块**
 - 已开发实现基础功能
+https://www.bilibili.com/video/BV1jNrpYPEvG/?spm_id_from=333.1387.homepage.video_card.click
 
 **七、视觉模块（图像识别和OCR）**
 - 已开发实现基础功能
+https://www.bilibili.com/video/BV1Rgc2e1EJu/?spm_id_from=333.1387.homepage.video_card.click
 
 **八、实时时间模块**
 - 已开发实现基础功能
+https://www.bilibili.com/video/BV1h4CrYUEsc/?spm_id_from=333.1387.homepage.video_card.click
 
 **九、实时日历模块**
 - 已开发实现基础功能
@@ -241,8 +250,9 @@ AI Sphere Butler 打造全方位服务用户生活的 AI 全能管家——代�
 
 **十二、定位导航模块**
 - 已开发实现基础功能
+https://www.bilibili.com/video/BV1TpfnYREwy/?spm_id_from=333.1387.homepage.video_card.click
 
-**十三、播放音乐模块**
+**十三、娱乐模块**
 - （未开发）
 
 **十四、网店购物模块**
