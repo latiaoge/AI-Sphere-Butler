@@ -342,7 +342,7 @@ https://www.bilibili.com/video/BV1TpfnYREwy/?spm_id_from=333.1387.homepage.video
 #### **3.1 虚拟管家模块**
 - **技术**：
   - 对话：基于微调的 Qwen2.5 LLM 提供多轮对话能力。
-  - 虚拟形象：使用 LiveTalking 或 Unity3D 实现虚拟人物形象。
+  - 虚拟形象：使用 metahuman-stream 或 Unity3D 实现虚拟人物形象。
   - 声音克隆：整合 Coqui TTS 或类似技术实现个性化语音。
 - **功能**：
   - 流式对话：支持实时语音/文本交互。
