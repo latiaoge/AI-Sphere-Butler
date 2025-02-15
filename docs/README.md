@@ -444,7 +444,7 @@ https://www.bilibili.com/video/BV1TpfnYREwy/?spm_id_from=333.1387.homepage.video
 
 ## 项目结构
 
-AI Sphere Butler/  # 项目根目录
+ai-sphere-butler/  # 项目根目录
 ├── docs/                  # 项目文档
 │   ├── README.md             # 项目介绍和快速入门指南 (Markdown格式)
 │   ├── architecture.md      # 系统架构设计文档 (Markdown格式)
@@ -464,37 +464,37 @@ AI Sphere Butler/  # 项目根目录
 │   │   │   └── database.ini # 数据库连接信息
 │   │   ├── modules/         # 各功能模块的实现
 │   │   │   ├── user_manager/
-│   │   │   │   ├── init.py        # Python 包初始化文件
+│   │   │   │   ├── __init__.py        # Python 包初始化文件
 │   │   │   │   ├── models.py        # 数据库模型 (Python)
 │   │   │   │   ├── routes.py        # API路由 (Python)
 │   │   │   │   └── services.py       # 业务逻辑 (Python)
 │   │   │   ├── dialog_manager/
-│   │   │   │   ├── init.py
+│   │   │   │   ├── __init__.py
 │   │   │   │   ├── nlp.py           # 自然语言处理 (Python)
 │   │   │   │   ├── context.py       # 对话上下文管理 (Python)
 │   │   │   │   └── routes.py
 │   │   │   ├── emotion_engine/
-│   │   │   │   ├── init.py
+│   │   │   │   ├── __init__.py
 │   │   │   │   ├── models.py
 │   │   │   │   └── analyzer.py      # 情感分析 (Python)
 │   │   │   ├── skill_platform/
-│   │   │   │   ├── init.py
+│   │   │   │   ├── __init__.py
 │   │   │   │   ├── registry.py      # 技能注册 (Python)
 │   │   │   │   └── skills/
-│   │   │   │       ├── init.py
+│   │   │   │       ├── __init__.py
 │   │   │   │       ├── smart_home.py  # 智能家居技能 (Python)
 │   │   │   │       ├── weather.py     # 天气技能 (Python)
 │   │   │   │       └── ...            # 其他技能
 │   │   │   ├── device_manager/
-│   │   │   │   ├── init.py
+│   │   │   │   ├── __init__.py
 │   │   │   │   ├── controllers.py   # 设备控制 (Python)
 │   │   │   │   └── discovery.py     # 设备发现 (Python)
 │   │   │   ├── data_analysis/
-│   │   │   │   ├── init.py
+│   │   │   │   ├── __init__.py
 │   │   │   │   ├── analytics.py     # 数据分析 (Python)
 │   │   │   │   └── reporting.py    # 数据报告生成 (Python)
 │   │   │   ├── security_manager/
-│   │   │   │   ├── init.py
+│   │   │   │   ├── __init__.py
 │   │   │   │   ├── authentication.py # 身份验证 (Python)
 │   │   │   │   └── authorization.py  # 权限管理 (Python)
 │   │   │   └── ...                 # 其他模块
@@ -504,12 +504,12 @@ AI Sphere Butler/  # 项目根目录
 │   │   │   ├── skill.py          # 技能API (Python)
 │   │   │   └── ...
 │   │   ├── utils/                # 工具函数和辅助类
-│   │   │   ├── init.py
+│   │   │   ├── __init__.py
 │   │   │   ├── logging.py        # 日志工具类 (Python)
 │   │   │   ├── database.py       # 数据库工具类 (Python)
 │   │   │   └── ...
 │   │   └── tests/               # 后端测试
-│   │       ├── init.py
+│   │       ├── __init__.py
 │   │       ├── test_user_manager.py # 用户管理模块测试 (Python)
 │   │       └── ...
 │   ├── client/              # 前端客户端
@@ -539,7 +539,7 @@ AI Sphere Butler/  # 项目根目录
 │   └── ...
 ├── modules/                # 可选的独立模块 (可根据需要增减)
 │   ├── iot_control/       # 物联网控制模块 (示例)
-│   │   ├── init.py
+│   │   ├── __init__.py
 │   │   ├── config.yaml     # 模块配置文件 (YAML)
 │   │   ├── handlers.py    # 事件处理 (Python)
 │   │   └── ...
