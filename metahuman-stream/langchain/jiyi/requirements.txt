@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+sqlalchemy
+redis
+tiktoken
+fuzzywuzzy
+# 添加其他需要的库

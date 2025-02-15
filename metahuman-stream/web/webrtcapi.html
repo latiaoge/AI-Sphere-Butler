@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebRTC webcam</title>
+</head>
+<body>
+
+<div class="option">
+    <input id="use-stun" type="checkbox"/>
+    <label for="use-stun">Use STUN server</label>
+</div>
+<button id="start" onclick="start()">Start</button>
+<button id="stop" style="display: none" onclick="stop()">Stop</button>
+<input type="hidden" id="sessionid" value="1234">
+<form class="form-inline" id="echo-form">
+    <div class="form-group">
+      <p>input text</p>
+
+      <textarea cols="2" rows="3" style="width:600px;height:50px;" class="form-control" id="message">test</textarea>
+    </div>
+    <button type="submit" class="btn btn-default">Send</button>
+</form>
+
+<div class="option">
+    <button id="zoom-in">放大</button>
+    <button id="zoom-out">缩小</button>
+</div>
+
+<div id="media">
+    <h2>Media</h2>
+
+    <audio id="audio" autoplay="true"></audio>
+    <video id="video" style="width:600px; height:450px;" autoplay="true" playsinline="true"></video>
+</div>
+
+<script src="client.js"></script>
+<script type="text/javascript" src="http://cdn.sockjs.org/sockjs-0.3.4.js"></script>
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        // 获取视频元素
+        var video = document.getElementById('video');
+
+        // 初始化视频的宽度和高度
+        var initialWidth = 600; // 初始宽度
+        var initialHeight = 450; // 初始高度（根据视频的宽高比计算）
+        var zoomStep = 50; // 每次缩放的步长
+
+        // 设置初始尺寸
+        video.style.width = initialWidth + 'px';
+        video.style.height = initialHeight + 'px';
+
+        // 放大按钮点击事件
+        $('#zoom-in').on('click', function() {
+            var currentWidth = parseInt(video.style.width);
+            var newWidth = currentWidth + zoomStep;
+            video.style.width = newWidth + 'px';
+            video.style.height = (newWidth * (initialHeight / initialWidth)) + 'px'; // 保持宽高比
+        });
+
+        // 缩小按钮点击事件
+        $('#zoom-out').on('click', function() {
+            var currentWidth = parseInt(video.style.width);
+            var newWidth = currentWidth - zoomStep;
+            if (newWidth > 0) { // 确保宽度不会小于0
+                video.style.width = newWidth + 'px';
+                video.style.height = (newWidth * (initialHeight / initialWidth)) + 'px'; // 保持宽高比
+            }
+        });
+
+        $('#echo-form').on('submit', function(e) {
+            e.preventDefault();
+            var message = $('#message').val();
+            console.log('Sending: ' + message);
+            console.log('sessionid: ',document.getElementById('sessionid').value);
+            fetch('/human', {
+                body: JSON.stringify({
+                    text: message,
+                    type: 'echo',
+                    interrupt: true,
+                    sessionid:parseInt(document.getElementById('sessionid').value),
+                }),
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                method: 'POST'
+            });
+            $('#message').val('');
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[2025-01-18 00:04:08 +0800] [99146] [INFO] Starting gunicorn 23.0.0
+[2025-01-18 00:04:08 +0800] [99146] [DEBUG] Arbiter booted
+[2025-01-18 00:04:08 +0800] [99146] [INFO] Listening at: http://0.0.0.0:11435 (99146)
+[2025-01-18 00:04:08 +0800] [99146] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2025-01-18 00:04:08 +0800] [99284] [INFO] Booting worker with pid: 99284
+[2025-01-18 00:04:08 +0800] [99284] [INFO] Started server process [99284]
+[2025-01-18 00:04:08 +0800] [99284] [INFO] Waiting for application startup.
+[2025-01-18 00:04:08 +0800] [99284] [INFO] Application startup complete.
+[2025-01-18 00:04:08 +0800] [99146] [DEBUG] 1 workers
+[2025-01-18 00:05:26 +0800] [99284] [INFO] Shutting down
+[2025-01-18 00:05:26 +0800] [99146] [INFO] Handling signal: int
+[2025-01-18 00:05:26 +0800] [99284] [INFO] Waiting for application shutdown.
+[2025-01-18 00:05:26 +0800] [99284] [INFO] Application shutdown complete.
+[2025-01-18 00:05:26 +0800] [99284] [INFO] Finished server process [99284]
+[2025-01-18 00:05:26 +0800] [99146] [ERROR] Worker (pid:99284) was sent SIGINT!
+[2025-01-18 00:05:27 +0800] [99146] [INFO] Shutting down: Master
