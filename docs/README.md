@@ -13,6 +13,10 @@ AI Sphere Butler 打造全方位服务用户生活的 AI 全能管家——代�
 
 简介视频：https://www.bilibili.com/video/BV17WNBezExr/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
+**现在实现的功能都在metahuman-stream 分支上,主分支还没改造完成。**
+
+metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移步到这https://github.com/lipku/LiveTalking
+
 以下是关于开源计划的详细说明，以及为什么它值得您加入共建。
 
 ---
