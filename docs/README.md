@@ -81,7 +81,7 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 
 - 流式对话数字人（目前选用metahuman-stream）
   - 支持自然流畅的人机对话体验。
-  - 提供虚拟形象和声音克隆功能，使数字人更具个性化。
+  - 提供虚拟形象和声音克隆功能，方言对话，使数字人更具个性化。
 
 - 虚拟大脑LLM/MM-Model 或 Multimodal Model（目前选用微调Qwen2.5LLM）
   - 基于微调后的Qwen2.5大型语言模型，赋予数字人更深层次的理解和响应能力。
@@ -114,8 +114,10 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 **五、联网新闻播报模块**
 - 实时获取最新资讯，并以语音形式为用户播报重要新闻。
 
-**六、互动触觉反馈模块**
-- 模拟真实世界的触觉感受，提升用户交互的真实感。
+**六、互动反馈模块**
+- 触觉反馈：模拟真实世界的触觉感受，提升用户交互的真实感。
+- 嗅觉反馈：通过气味传感器模拟真实世界的闻气味，提升用户交互的真实感。
+- 距离反馈：通过超声波传感器模拟真实世界的距离远近和室内位置距离，提升用户交互的真实感。
 
 **七、视觉模块（图像识别和OCR）**
 - 利用先进的图像处理技术进行物体识别和文字提取，支持多种应用场景。
@@ -138,6 +140,7 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 **十三、娱乐模块**
 - 整合音乐播放功能，让用户享受个性化的音乐体验。
 - 可以让管家唱歌跳舞表演。
+- 可以让管家陪你看电视电影互动
 
 **十四、网店购物模块**
 - 提供便捷的商品搜索、比价、下单等一站式购物服务。
@@ -212,6 +215,7 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 **一、虚拟管家模块**
 - 流式对话数字人（目前选用metahuman-stream）
 - 虚拟大脑LLM/MM-Model 或 Multimodal Model（目前选用微调Qwen2.5LLM）
+- 方言对话（未开发）
 - 唤醒模式 （未开发）
 - 身份识别（声纹识别、人脸识别）（未开发）
 - 支持打断/追问（未开发）
@@ -232,10 +236,12 @@ https://www.bilibili.com/video/BV1n9CpY7E1o/?spm_id_from=333.1387.homepage.video
 - 已开发实现基础功能
 https://www.bilibili.com/video/BV1R26qYqEvo/?spm_id_from=333.1387.homepage.video_card.click
 
-**六、互动触觉反馈模块**
-- 已开发实现基础功能
+**六、互动反馈模块**
+- 触觉反馈，已开发实现基础功能
 https://www.bilibili.com/video/BV1jNrpYPEvG/?spm_id_from=333.1387.homepage.video_card.click
-
+- 嗅觉反馈：（未开发）
+- 距离反馈：（未开发）
+- 
 **七、视觉模块（图像识别和OCR）**
 - 已开发实现基础功能
 https://www.bilibili.com/video/BV1Rgc2e1EJu/?spm_id_from=333.1387.homepage.video_card.click
