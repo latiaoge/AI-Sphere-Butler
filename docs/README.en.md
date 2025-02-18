@@ -11,6 +11,10 @@ AI Sphere Butler aims to create a comprehensive AI butler for users' everyday li
 
 To realize the ultimate vision of **"Xiao Li"**, we have decided to open this project to developers, researchers, and tech enthusiasts worldwide in an open-source manner, collectively building a highly intelligent, emotionally aware, and humanized digital assistant. We believe that through the power and wisdom of the global tech community, **"Xiao Li"** will become an indispensable companion in users' lives, providing more human-centered companionship and services.
 
+Introduction video https://www.bilibili.com/video/BV17WNBezExr/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
+
+The current implementation is on the metahuman-stream branch; the main branch is not yet fully modified. metahuman-stream is a digital human framework open-sourced by the developer lipku. For the specific deployment tutorial, please refer to this：https://github.com/lipku/LiveTalking
+
 Below are detailed explanations about the open-source plan and why it is worth your participation in building it together.
 
 ---
