@@ -5,7 +5,7 @@
 ### Open Source Project Plan
 AI Sphere Butler aims to create a comprehensive AI butler for users' everyday lives—code name **“Xiao Li”** (the name of the butler can be customized).
 
-**Project Name: AI Sphere Butler**
+**Project Name: AI Sphere Butler** "A world-first innovation in concept and design"
 
 **Ultimate Vision**: Our goal is to create a comprehensive AI butler—“Xiao Li”—that provides an experience akin to a real butler in a video call. Apart from lacking a physical form, “Xiao Li” will possess capabilities such as thinking, emotional communication, visual and auditory perception, and simulated tactile feedback, all displayed across various devices in homes and vehicles. Its functions cover smart home control, emotional companionship, learning interaction, health management, security protection, personal shopping, outdoor navigation, and hotel booking.
 
