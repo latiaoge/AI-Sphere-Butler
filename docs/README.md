@@ -270,6 +270,7 @@ https://www.bilibili.com/video/BV1h4CrYUEsc/?spm_id_from=333.1387.homepage.video
 **十二、定位导航模块**
 - 已开发实现基础功能
 https://www.bilibili.com/video/BV1TpfnYREwy/?spm_id_from=333.1387.homepage.video_card.click
+https://www.bilibili.com/video/BV1sVAteUEcM/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
 **十三、娱乐模块**
 - （未开发）
