@@ -363,8 +363,8 @@ https://www.bilibili.com/video/BV1sVAteUEcM/?spm_id_from=333.1387.homepage.video
 # 可承载硬件设备(任何屏幕上)
 
 
+![图片描述](images/1285908254227955712.jpg)
 
-![Uploading screenshot_2025-02-22_10-17-29.png…]()
 
 
 
