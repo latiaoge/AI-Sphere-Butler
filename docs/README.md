@@ -23,6 +23,11 @@ AI数字人+HA开源项目AI Sphere Butler如何自定义训练全能管家形�
 简约教程见：https://bbs.hassbian.com/thread-28622-1-1.html （讨论请联系我们vx）
 效果视频：https://www.bilibili.com/video/BV1c9wQe1EoE/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
+![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/IMG_7610.JPG.JPG?raw=true)
+
+![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/1285908254227955712.jpg?raw=true)
+
+
 以下是关于开源计划的详细说明，以及为什么它值得您加入共建。
 
 ---
@@ -215,6 +220,7 @@ AI数字人+HA开源项目AI Sphere Butler如何自定义训练全能管家形�
     隐私保护与伦理考量
         在推进技术创新的同时，严格遵守数据隐私法规，确保所有收集到的信息得到妥善处理。同时，积极探讨并解决相关伦理问题，保证技术发展符合社会价值观。
 
+![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/1314629109644525568.png?raw=true)
 
 ---
 
@@ -365,6 +371,9 @@ https://www.bilibili.com/video/BV1sVAteUEcM/?spm_id_from=333.1387.homepage.video
 
 ![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/screenshot_2025-02-22_10-31-54.png?raw=true)
 
+![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/screenshot_2025-02-22_10-17-29.png?raw=true)
+
+![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/BC3BAC38-4561-4ae8-B921-349A3A0B2CBA.png?raw=true)
 
 
 
