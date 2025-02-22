@@ -360,6 +360,14 @@ https://www.bilibili.com/video/BV1sVAteUEcM/?spm_id_from=333.1387.homepage.video
 
 ---
 
+# 可承载硬件设备(任何屏幕上)
+
+
+
+![Uploading screenshot_2025-02-22_10-17-29.png…]()
+
+
+
 ## 系统架构设计
 
 ### **1. 技术架构**
