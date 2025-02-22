@@ -363,7 +363,7 @@ https://www.bilibili.com/video/BV1sVAteUEcM/?spm_id_from=333.1387.homepage.video
 # 可承载硬件设备(任何屏幕上)
 
 
-![设备](AI-Sphere-Butler/images/1285908254227955712.jpg)
+![设备]([AI-Sphere-Butler/images/1285908254227955712.jpg](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/screenshot_2025-02-22_10-31-54.png?raw=true))
 
 
 
