@@ -1,0 +1,2 @@
+metahuman-stream/wav2lip/face_detection/detection/sfd/s3fd.pth filter=lfs diff=lfs merge=lfs -text
+metahuman-stream/wav2lip/models/wav2lip.pth filter=lfs diff=lfs merge=lfs -text
