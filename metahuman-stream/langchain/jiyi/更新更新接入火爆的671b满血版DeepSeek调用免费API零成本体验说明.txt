@@ -1,0 +1,1 @@
+对应llm和readquestion.py ollama接口地址和模型名称要改成deepseek对应的
