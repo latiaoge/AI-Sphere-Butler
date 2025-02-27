@@ -29,6 +29,8 @@ AI数字人+HA开源项目AI Sphere Butler如何自定义训练全能管家形�
 
 
 **要成功部署和运行目前的 AI Sphere Butler 项目需要了解多种技术**
+
+
 要成功部署和运行 AI Sphere Butler 项目，需要了解多种技术，涵盖前端、后端、机器学习、物联网等多个领域。以下是目前metahuman-stream分支部署和运行所需了解的知识：
 
 ### **1. 核心技术栈**
