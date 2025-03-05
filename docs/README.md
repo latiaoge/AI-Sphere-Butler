@@ -23,7 +23,7 @@ AI数字人+HA开源项目AI Sphere Butler如何自定义训练全能管家形�
 简约教程见：https://bbs.hassbian.com/thread-28622-1-1.html （讨论请联系我们vx）
 效果视频：https://www.bilibili.com/video/BV1c9wQe1EoE/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
-![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/IMG_7681.JPG.JPG?raw=true)
+![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/ewm.JPG?raw=true)
 
 ![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/1285908254227955712.jpg?raw=true)
 
