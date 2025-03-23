@@ -22,7 +22,10 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 - 1.普通笔记本集显如何部署DeepSeek-r1_7b大模型并进行推理？ 
 教程见：https://mp.weixin.qq.com/s/ZhycwCGkPyaW_Y5loBJejg
 
-- 2.AI数字人+HA开源项目AI Sphere Butler如何自定义训练全能管家形象
+- 2.Ubuntu如何部署AI-Sphere-Butler
+教程见：https://mp.weixin.qq.com/s/-M0Y2YCfsi98aTkTOTA87g
+
+- 3.AI数字人+HA开源项目AI Sphere Butler如何自定义训练全能管家形象
 教程见：https://mp.weixin.qq.com/s/fT61Hpz0vRsmgxOblxQ2vQ 
 效果视频：https://www.bilibili.com/video/BV1c9wQe1EoE/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
