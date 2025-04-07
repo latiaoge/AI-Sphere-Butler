@@ -3,11 +3,11 @@
 ## 介绍
 
 ### 开源项目计划
-AI Sphere Butler 打造全方位服务用户生活的 AI 全能管家——代号 **“小粒”** （管家名称可以随意自定义）。
+AI Sphere Butler 打造全方位服务用户生活的 AI 全能管家——代号 **“小粒”** （管家名称可以随意自定义），这就是AI最终追求和发展方向AGI的一种展现形式，目前是一个AGI的雏形。。
 
 **项目名称：AI Sphere Butler**（创意和设计全球首创）
 
-**终极愿景**：目标是创造一个全方位服务于用户全场景的 AI 全能管家—“小粒”。除了不具备物理形态外，“小粒”将提供与远程视频通话中的真人几乎无异的体验，具备思考、情感交流、视觉、听觉以及模拟触觉反馈等能力，并能够游走在任何家庭、车辆等场景显示设备上自由与人交互。功能覆盖智能家居控制、情感陪伴、学习交流、健康管理、安全防护、个人购物、外出导航及酒店预订等多个方面，还可以做主人代理分身，代理主人进入AI世界与AI网络互联，和其他用户的虚拟管家或者虚拟个体交互。为了实现 "小粒" 的终极愿景，我们决定将这个项目以开源的方式向全球开发者、研究者和技术爱好者开放，共同打造一个高度智能、情感化和人性化的全能管家。通过全球技术社区的力量和智慧，"小粒" 将成为用户生活中不可或缺的伙伴，为每个人提供更加贴近人性的陪伴与服务。
+**终极愿景**：目标是创造一个全方位服务于用户全场景的 AI 全能管家—“小粒”。除了不具备物理形态外，“小粒”将提供与远程视频通话中的真人几乎无异的体验，具备思考、情感交流、视觉、听觉以及模拟触觉反馈等能力，并能够游走在任何家庭、车辆等场景显示设备上自由与人交互。功能覆盖智能家居控制、情感陪伴、学习交流、健康管理、安全防护、个人购物、外出导航及酒店预订等多个方面，还可以做主人代理分身，代理主人进入AI世界与AI网络互联，和其他用户的虚拟管家或者虚拟个体交互。为了实现 "小粒" 的终极愿景，我们决定将这个项目以开源的方式向全球开发者、研究者和技术爱好者开放，共同打造一个高度智能、情感化和人性化的全能管家。通过全球技术社区的力量和智慧，"小粒" 将成为用户生活中不可或缺的伙伴，为每个人提供更加贴近人性的陪伴与服务,这就是AI最终追求和发展方向AGI的一种展现形式，目前是一个AGI的雏形。
 
 简介视频：https://www.bilibili.com/video/BV17WNBezExr/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
@@ -27,7 +27,7 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 教程见：https://mp.weixin.qq.com/s/fT61Hpz0vRsmgxOblxQ2vQ 
 效果视频：https://www.bilibili.com/video/BV1c9wQe1EoE/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
-![公众哈](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/qrcode_for_gh_0cb3e985952d_258.jpg?raw=true)
+![公众号](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/ewm47.JPG?raw=true)
 
 ![交流群](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/ewm329.JPG?raw=true)
 
