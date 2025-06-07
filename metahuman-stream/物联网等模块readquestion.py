@@ -166,11 +166,13 @@ def mqtt_connect():
             logger.info(f"订阅成功: mid={mid}")
         else:
             logger.error(f"订阅失败: result={result}")
-        
-        mqtt_client.loop_start()
+
+        # mqtt_client.loop_start()  # 这句重复可去掉
+        return True
     except Exception as e:
         logger.error(f"无法连接到 MQTT 代理: {e}")
-        exit(1)
+        # 不退出程序，返回 False 表示失败
+        return False
 
 
 
