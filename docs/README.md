@@ -29,7 +29,7 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 
 ![公众号](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/qrcode_for_gh_0cb3e985952d_258.jpg?raw=true)
 
-![交流群](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/ewm616.JPG?raw=true)
+![交流群](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/ewm623.JPG?raw=true)
 
 ![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/1285908254227955712.jpg?raw=true)
 
@@ -182,9 +182,11 @@ AI-Sphere-Butler项目在控制设备和机器人方面具有巨大的发展潜�
 
 ## 服务器硬件配置参考
 
-- ASR/TTS/LLM使用云上服务，硬件最低配置要求，CPU: i5 12代以上 内存：32G以上 硬盘：500G SSD以上 显卡：8G以上
+- ASR/TTS/LLM使用云上服务，硬件最低配置要求，CPU: i5 12代10核以上 内存：16G以上 硬盘：500G SSD以上 显卡：8G以上
 
-- ASR/TTS/LLM全部署在本地服务，最低配置要求，CPU: i7 12代以上 内存：64G以上 硬盘：1T SSD以上 显卡：16G以上
+- ASR/TTS/LLM全部署在本地服务，最低配置要求，CPU: i7 12代10核以上 内存：32G以上 硬盘：1T SSD以上 显卡：16G以上
+
+使用对接豆包桌面版试玩：硬件最低配置要求，CPU: i5 12代10核以上 内存：16G以上 硬盘：500G SSD以上 显卡：6G以上
 
 ## 开发计划
 
