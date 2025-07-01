@@ -28,11 +28,18 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 教程见：https://mp.weixin.qq.com/s/fT61Hpz0vRsmgxOblxQ2vQ 
 效果视频：https://www.bilibili.com/video/BV1c9wQe1EoE/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
+
+最新版在开发中：
+![最新版在开发中](https://github.com/latiaoge/AI-Sphere-Butler/blob/metahuman-stream/docs/xbt.png?raw=true)
+
+教程公众号：
 ![公众号](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/qrcode_for_gh_0cb3e985952d_258.jpg?raw=true)
 
-![交流群](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/ewm623.JPG?raw=true)
+交流群超200人通过微信邀请：
+![交流群超200人通过微信邀请](https://github.com/latiaoge/AI-Sphere-Butler/blob/metahuman-stream/docs/ewm7.JPG?raw=true)
 
 ![设备](https://github.com/latiaoge/AI-Sphere-Butler/blob/master/images/1285908254227955712.jpg?raw=true)
+
 
 **最新分析**
 
