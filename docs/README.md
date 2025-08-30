@@ -27,7 +27,7 @@ metahuman-stream是lipku 大佬开源的数字人框架，具体部署教程移�
 教程见：https://mp.weixin.qq.com/s/fT61Hpz0vRsmgxOblxQ2vQ 
 效果视频：https://www.bilibili.com/video/BV1c9wQe1EoE/?spm_id_from=333.1387.homepage.video_card.click&vd_source=886ba95d2a89cdc08080f76e5023b688
 
-最新版在开发中：
+最新版在开发中，已更新主分支：
 ![最新版在开发中](https://github.com/latiaoge/AI-Sphere-Butler/blob/metahuman-stream/docs/xbt.png?raw=true)
 
 教程公众号：
