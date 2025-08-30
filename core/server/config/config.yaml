@@ -1,0 +1,25 @@
+
+#线上llm模型AI-Sphere-Butler\core\server\modules\llm\online_volces_ds.py
+api_key: "d3112f669c3e47"
+base_url: "https://ark.cn-beijing.volces.com/api/v3"
+model_name: "ep-202506hx"
+
+#本地模型AI-Sphere-Butler\core\server\modules\llm\local_qwen.py
+local_model_api: "http://192.168.1.2:11434/v1/chat/completions"
+local_model_name: "qwen3:1.7b"
+local_model_timeout: 25
+local_model_max_tokens: 512
+local_model_temperature: 0.25
+
+#AI-Sphere-Butler\core\server\virtual_human\main_virtual_human.py
+tts:
+  type: "gpt-sovits"
+  ref_file: null
+  ref_text: null
+  server: "http://127.0.0.1:6008"
+
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  decode_responses: true

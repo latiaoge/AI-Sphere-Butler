@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/core/client/ai-butler/static/css/main.bae35333.css",
+    "main.js": "/core/client/ai-butler/static/js/main.8736ef76.js",
+    "static/media/camera-switch.png": "/core/client/ai-butler/static/media/camera-switch.74258b8d393177b9a71d.png",
+    "index.html": "/core/client/ai-butler/index.html",
+    "main.bae35333.css.map": "/core/client/ai-butler/static/css/main.bae35333.css.map",
+    "main.8736ef76.js.map": "/core/client/ai-butler/static/js/main.8736ef76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bae35333.css",
+    "static/js/main.8736ef76.js"
+  ]
+}

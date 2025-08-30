@@ -1,0 +1,216 @@
+/* 页面整体样式 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* 背景颜色 */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* 主容器 */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 数字人显示区域 */
+.ai-display {
+    position: relative;
+    width: 100%;
+    height: 60%; /* 占据顶部 60% 的空间 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* 背景为白色 */
+}
+
+.ai-frame {
+    width: 40%; /* 数字人框的宽度 */
+    height: 100%; /* 数字人框的高度 */
+    border: none;
+    background-color: transparent;
+}
+
+/* 对话框区域 */
+.chat-area {
+    position: absolute;
+    bottom: 120px; /* 距离底部的距离 */
+    width: 80%; /* 对话框的最大宽度 */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 上下气泡的间距 */
+    background-color: transparent !important; /* 完全透明 */
+}
+
+
+.chat-bubble {
+    max-width: 70%; /* 气泡最大宽度 */
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: transparent !important; /* 强制背景完全透明 */
+    box-shadow: none !important; /* 强制移除阴影 */
+}
+
+
+
+/* 数字人回复气泡 */
+.bot-response {
+    align-self: flex-start; /* 靠左对齐 */
+    background-color: #e6f7ff; /* 淡蓝色背景 */
+    color: #000; /* 黑色文字 */
+}
+
+/* 用户输入气泡 */
+.user-input {
+    align-self: flex-end; /* 靠右对齐 */
+    background-color: #007bff; /* 蓝色背景 */
+    color: #fff; /* 白色文字 */
+}
+
+/* 底部麦克风按钮 */
+.mic-button {
+    position: absolute;
+    bottom: 20px; /* 距离底部 20px */
+    width: 35px;
+    height: 25px;
+    background-color: transparent; /* 完全透明背景 */
+    border-radius: 100%; /* 圆形按钮 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* 移除阴影 */
+    cursor: pointer;
+}
+
+/* 麦克风图标 */
+.mic-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    /* 移除透明边框 */
+    border: none; /* 或者 border: 2px solid transparent; */
+    border-radius: 50%; /* 圆形边框 */
+    padding: 0; /* 移除内边距 */
+}
+
+
+/* 麦克风按钮的悬停效果 */
+.mic-button:hover .mic-icon {
+    border-color: rgba(0, 123, 255, 1); /* 悬停时边框颜色加深 */
+}
+
+/* 右侧功能按钮 */
+.right-buttons {
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* 按钮之间的间距 */
+}
+
+.button-item {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 识别出的文字对话框 */
+.recognize-content {
+    background-color: rgba(0, 0, 0, 0.7); /* 半透明黑色背景 */
+    color: white; /* 确保文字颜色与背景对比明显 */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 柔和的阴影 */
+    display: inline-block; /* 确保内容自适应宽度 */
+    width: 360px; /* 保持原来的宽度 */
+    height: auto; /* 根据内容自动调整高度 */
+    overflow: auto; /* 允许滚动 */
+    border: none; /* 去掉边框 */
+    position: relative; /* 确保z-index生效 */
+    z-index: 9; /* 确保悬浮在视频上但低于按钮 */
+    visibility: hidden; /* 初始状态为隐藏 */
+}
+
+/* 使占位符文本颜色更柔和 */
+.edit-box:empty::before {
+    content: attr(placeholder);
+    color: rgba(240, 245, 239, 0.7); /* 半透明浅灰色 */
+}
+
+/* 确保 .edit-box:focus 时没有多余的内容 */
+.edit-box:focus {
+    outline: none; /* 去掉默认的蓝色轮廓 */
+}
+
+/* 新增的聆听中提示文本样式 */
+.listening-text {
+    position: absolute;
+    top: -40px; /* 调整位置，使其在按钮上方显示 */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #333;
+    background-color: transparent; /* 背景颜色改为透明 */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none; /* 默认隐藏 */
+}
+
+/* 悬浮容器样式 */
+#floating-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: grab;
+}
+
+/* 视频样式 */
+#video {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover;
+}
+
+/* 按钮样式 */
+#toggle-switch-camera {
+    width: 20px; /* 设置按钮宽度 */
+    height: 20px; /* 设置按钮高度 */
+    padding: 0; /* 移除内边距 */
+    border: none;
+    background-color: transparent; /* 背景透明 */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 图标样式 */
+#toggle-switch-camera img {
+    width: 100%; /* 图标宽度填充按钮 */
+    height: 100%; /* 图标高度填充按钮 */
+    object-fit: contain; /* 确保图标完整显示 */
+}

@@ -1,0 +1,8 @@
+{
+  "speaker1": {
+    "auto_conditioning": true,
+    "wav_paths": [
+      "assets/speaker1/1.wav"
+    ]
+  }
+}
