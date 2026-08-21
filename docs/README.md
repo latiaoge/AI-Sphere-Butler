@@ -81,7 +81,8 @@ XLIAgentV1.2.260806版本新增功能配置 使用教程：
 小粒cmd:执行CMD命令 ping baidu.com
 
 项目下载地址
-项目主页：![设备](https://latiaoge.github.io/)
+项目主页： https://latiaoge.github.io
+![XLIAgent](https://latiaoge.github.io/)
 
 **最新分析**
 
