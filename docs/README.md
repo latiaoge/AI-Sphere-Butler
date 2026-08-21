@@ -82,9 +82,8 @@ XLIAgentV1.2.260806版本新增功能配置 使用教程：
 
 项目下载地址
 项目主页： https://latiaoge.github.io
-![XLIAgent](https://latiaoge.github.io/)
 
-**最新分析**
+**较早分析**
 
 AI-Sphere-Butler项目结合当下技术如manus和mcp，未来潜力巨大。
 - 其一，任务规划与执行能力将得到显著提升。通过集成manus的任务规划和执行能力，AI-Sphere-Butler不仅能回答用户问题，还能主动帮助用户完成复杂任务，如撰写报告、规划旅行等，极大地提高用户的工作效率和生活便利性。
